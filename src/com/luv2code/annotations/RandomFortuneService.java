@@ -1,5 +1,6 @@
-package com.luv2code.springdemo;
+package com.luv2code.annotations;
 
+import com.luv2code.springdemo.FortuneService;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
@@ -9,7 +10,8 @@ public class RandomFortuneService implements FortuneService {
     private  String[] data = new String[]{
             "First Fortune",
             "Second Fortune",
-            "Third Fortune"
+            "Third Fortune",
+            "Fourth Fortune"
     };
     private Random random = new Random();
 
